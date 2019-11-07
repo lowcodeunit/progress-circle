@@ -12,11 +12,14 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit {
 
  
-
+public Color: string;
+public Rating: number;
   constructor(){
   }
 
   public ngOnInit(): void {
+    this.Color = "#008000";
+    this.Rating = 75;
   }
 
 }
