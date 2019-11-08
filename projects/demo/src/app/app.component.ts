@@ -16,7 +16,7 @@ public Rating: number;
 
   public ngOnInit(): void {
     this.Color = "#008000";
-    this.Rating = 1;
+    this.Rating = 10;
   }
 
 }

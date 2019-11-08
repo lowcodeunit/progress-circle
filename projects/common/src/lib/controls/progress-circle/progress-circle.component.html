@@ -1,6 +1,6 @@
-<div fxLayout="column" fxLayoutAlign="start center" class="content-right">
+<div fxLayout="column" fxLayoutAlign="start center" class="progress-circle-container">
     <!--   -->
-    <svg class="progress-ring" [ngStyle]="{height: Height, width: Width}">
+    <svg class="progress-ring" [ngStyle]="{'height': Height, 'width': Width}">
         <g>
             <circle class="progress-ring__circle_bg"
                 [ngStyle]="{'stroke-width':StrokeWidth, 'stroke': CircleBackgroundColor}" fill="transparent" r="32"
@@ -18,7 +18,7 @@
             cy="40">
         </circle>
     </svg>
-    <div *ngIf="Percentage" class="content-percent">
+    <div *ngIf="Percentage" class="content-percent" fxLayout="row" fxLayoutAlign="center center">
         {{ Percentage }}
     </div>
 </div>
