@@ -1,10 +1,13 @@
-.content-right {
-    position: relative;
-    width: 100px;
+.progress-circle-container {
+    // position: relative;
+    width: 80px;
+    // background-color: aqua;
+}
+
 .content-percent {
     font-size: 12px;
     font-weight: bold;
-    padding-left: 30%;
+    // padding-left: 33%;
 
     &:after {
       content: '%';
@@ -18,4 +21,3 @@
       transform-origin: 50% 50%;
     }
   }
-}
