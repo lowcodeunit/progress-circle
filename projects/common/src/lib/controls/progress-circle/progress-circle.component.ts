@@ -11,22 +11,35 @@ export class ProgressCircleComponent implements OnInit {
 
   protected pCircumference: number;
 
-
+/**
+ * Percentage of the circle to occupy
+ */
   @Input('percentage')
   public Percentage: number;
-
+/**
+ * The color of the filled portion of the circle
+ */
   @Input('percentage-color')
   public PercentageColor: string;
 
+/**
+ * The color of the outline circle for the filled portion to trace
+ */
   @Input('circle-background-color')
   public CircleBackgroundColor: string;
-
+/**
+ * height of the svg
+ */
   @Input('height')
   public Height: any;
-
+/**
+ * width of the svg
+ */
   @Input('width')
   public Width: any;
-
+/**
+ * the width of the stroke around the circle
+ */
   @Input('stroke-width')
   public StrokeWidth: any;
 
