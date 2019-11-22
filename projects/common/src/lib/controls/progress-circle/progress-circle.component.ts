@@ -16,6 +16,7 @@ export class ProgressCircleComponent implements OnInit {
  */
   @Input('percentage')
   public Percentage: number;
+
 /**
  * The color of the filled portion of the circle
  */
