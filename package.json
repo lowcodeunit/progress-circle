@@ -24,10 +24,10 @@
 		"lint": "ng lint",
 		"e2e": "ng e2e",
 		"upgrade9": "npm run upgrade9:angular && npm run upgrade9:auditfix && npm run upgrade9:lcu && npm run upgrade9:addons",
-    "upgrade9:angular": "ng update @angular/cli @angular/core && npm i @angular/cdk@latest @angular/material@latest @angular/flex-layout@latest",
-    "upgrade9:auditfix": "npm audit fix",
-    "upgrade9:lcu": "npm i @lcu/common@1.1.31-angular-9 @lcu/cli@latest",
-    "upgrade9:addons": "npm i @types/node@latest @webcomponents/custom-elements@latest @webcomponents/webcomponentsjs@latest codelyzer@latest ngx-build-plus@latest rxjs@latest ng-packagr@latest terser@4.6.3 --save"
+		"upgrade9:angular": "ng update @angular/cli @angular/core && npm i @angular/cdk@latest @angular/material@latest @angular/flex-layout@latest",
+		"upgrade9:auditfix": "npm audit fix",
+		"upgrade9:lcu": "npm i @lcu/common@1.1.31-angular-9 @lcu/cli@latest",
+		"upgrade9:addons": "npm i @types/node@latest @webcomponents/custom-elements@latest @webcomponents/webcomponentsjs@latest codelyzer@latest ngx-build-plus@latest rxjs@latest ng-packagr@latest terser@4.6.3 --save"
 	},
 	"private": false,
 	"dependencies": {
@@ -79,8 +79,8 @@
 		"protractor": "~5.4.0",
 		"rimraf": "^3.0.0",
 		"ts-node": "~7.0.0",
-		"tsickle": "^0.35.0",
+		"tsickle": "^0.38.1",
 		"tslint": "~5.15.0",
-		"typescript": "~3.4.3"
+		"typescript": "~3.7.5"
 	}
 }
