@@ -44,7 +44,7 @@ export class ProgressCircleComponent implements OnInit {
   @Input('stroke-width')
   public StrokeWidth: any;
 
-  @ViewChild('progressCircle', { static: false }) set content(elRef: ElementRef) {
+  @ViewChild('progressCircle',{static: false}) set content(elRef: ElementRef) {
     this.progressCircle = elRef.nativeElement;
   }
 
