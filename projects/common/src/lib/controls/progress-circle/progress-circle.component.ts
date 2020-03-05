@@ -98,7 +98,7 @@ export class ProgressCircleComponent implements OnInit {
     if(!this.CircleBackgroundColor){
       this.CircleBackgroundColor = "#F1F4F6";
     }
-    console.log("percentage color = ", this.PercentageColor)
+    // console.log("percentage color = ", this.PercentageColor)
     if(!this.PercentageColor){
       this.PercentageColor = "#67C7C5";
     }
