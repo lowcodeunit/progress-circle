@@ -11,26 +11,40 @@ export class ProgressCircleComponent implements OnInit {
 
   protected pCircumference: number;
 
-
+/**
+ * Percentage of the circle to occupy
+ */
   @Input('percentage')
   public Percentage: number;
 
+/**
+ * The color of the filled portion of the circle
+ */
   @Input('percentage-color')
   public PercentageColor: string;
 
+/**
+ * The color of the outline circle for the filled portion to trace
+ */
   @Input('circle-background-color')
   public CircleBackgroundColor: string;
-
+/**
+ * height of the svg
+ */
   @Input('height')
   public Height: any;
-
+/**
+ * width of the svg
+ */
   @Input('width')
   public Width: any;
-
+/**
+ * the width of the stroke around the circle
+ */
   @Input('stroke-width')
   public StrokeWidth: any;
 
-  @ViewChild('progressCircle', { static: false }) set content(elRef: ElementRef) {
+  @ViewChild('progressCircle',{static: false}) set content(elRef: ElementRef) {
     this.progressCircle = elRef.nativeElement;
   }
 
@@ -84,7 +98,7 @@ export class ProgressCircleComponent implements OnInit {
     if(!this.CircleBackgroundColor){
       this.CircleBackgroundColor = "#F1F4F6";
     }
-    console.log("percentage color = ", this.PercentageColor)
+    // console.log("percentage color = ", this.PercentageColor)
     if(!this.PercentageColor){
       this.PercentageColor = "#67C7C5";
     }

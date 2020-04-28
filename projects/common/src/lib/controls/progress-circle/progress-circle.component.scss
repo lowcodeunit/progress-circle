@@ -1,6 +1,14 @@
+.progress-circle-container {
+    // position: relative;
+    width: 100px;
+    // background-color: aqua;
+}
+
 .content-percent {
     font-size: 12px;
     font-weight: bold;
+    position: fixed;
+    top: 32px;
 
     &:after {
       content: '%';
